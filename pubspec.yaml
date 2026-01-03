@@ -1,0 +1,93 @@
+name: study_royal
+description: A comprehensive Flutter study application with advanced features for learning and resource management.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.4.0
+  riverpod: ^2.4.0
+  flutter_riverpod: ^2.4.0
+
+  # Navigation
+  go_router: ^13.0.0
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+
+  # Networking
+  dio: ^5.3.1
+  http: ^1.1.0
+  connectivity_plus: ^5.0.0
+
+  # UI Components & Animations
+  get: ^4.6.5
+  animations: ^2.0.7
+  flutter_staggered_grid_view: ^0.7.0
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+
+  # PDF Handling
+  pdf: ^3.10.0
+  printing: ^5.12.0
+  pdfx: ^2.3.0
+
+  # Serialization & Model Generation
+  json_serializable: ^6.7.1
+  freezed_annotation: ^2.4.1
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.0.0
+  logger: ^2.0.0
+  get_it: ^7.6.0
+  dartz: ^0.10.1
+
+  # Error Handling
+  sentry_flutter: ^7.14.0
+
+  # Testing & Development
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code Generation
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  freezed: ^2.4.1
+
+  # Linting & Formatting
+  flutter_lints: ^3.0.0
+  very_good_analysis: ^5.1.0
+
+  # Testing
+  mockito: ^5.4.4
+  mocktail: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add assets here
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  # Add custom fonts here
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
+  #       - asset: assets/fonts/CustomFont-Bold.ttf
+  #         weight: 700
